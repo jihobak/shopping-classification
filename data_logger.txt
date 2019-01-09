@@ -1,0 +1,1 @@
+[INFO    ] 2019-01-12 10:14:47 [data.py] [make_db:336] make database from data(train) with train_ratio(0.8)
