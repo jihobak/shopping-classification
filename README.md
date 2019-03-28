@@ -1,15 +1,22 @@
-# shopping-classification
+# [Online shopping mall product category classification competition sponsored by KaKao](https://arena.kakao.com/c/1)
+---
 
-## 추가 라이브러리 사용여부
+
+Participants deal with almost 100GB data and should classify a huge amounts of products using their own algorithms. Data contains text data and Images. I apply deep learning technique and placed 14nd as a result.[[leader board](https://arena.kakao.com/c/1/leaderboard)]
+
+
+---
+
+### 추가 라이브러리 사용여부
 - 최근 kakao에서 공개한 [khaiii 형태소 분석기](https://github.com/kakao/khaiii)를 사용하였습니다.
 - [nltk](https://www.nltk.org/)를 사용하였습니다.
 
-## 모델 설명 및 요약
+### 모델 설명 및 요약
 - 4개의 카테고리 b, m, s, d 별로 각각 예측하는 분류기를 만듭니다.
 - `product, img_feat`을 feature로 활용합니다.
 -  상품명에 대해서 khaiii형태소 분석기와 nltk를 활용해서 전처리합니다. 
 
-## 실행 방법
+### 실행 방법
 
 0. 데이터의 위치
     - 내려받은 데이터의 위치는 소스가 실행될 디렉토리의 상위 디렉토리로(../) 가정되어 있습니다.
